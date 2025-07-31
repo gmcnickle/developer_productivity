@@ -49,7 +49,13 @@ If we're serious about measuring individual developer productivity—ethically a
 
 And perhaps most importantly:
 
-No single metric tells the whole story. Before you even look at the data, you need to understand the questions you’re trying to answer.
+No single metric tells the whole story. Before you even look at the data, you need to understand the question you're trying to answer. For example, to assess how actively a developer participates in the review process, we don't just count their comments—we combine reviews performed, merges on others’ pull requests, and total comment activity into a single collaboration score. That composite metric directly answers the question: *How much has this developer contributed to reviewing their teammates’ work?*
+
+> 🛠️ **Pro Tip** – Calculating a Participation Score<br>  
+> The ***participation score*** (or ***collaboration score***) measures how active a developer has been in reviewing others’ code. It is calculated as:  
+> `reviewCount × 2.0 + mergeCount × 1.5 + commentCount`  
+>  
+> `reviewCount` and `mergeCount` are only counted on pull requests where the developer was ***not*** the author. `commentCount` includes comments made on *any* pull request.
 
 In my work, I’ve explored dozens of potential signals from Git and GitHub activity. Some were dead ends while others revealed unexpected insight.
 
