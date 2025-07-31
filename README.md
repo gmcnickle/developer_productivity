@@ -17,7 +17,7 @@ It’s designed to be simple, cross-platform, and transparent—something you ca
 
 ## 🚀 Usage
 
-To get started, [read the full article →](https://github.com/gmcnickle/developer-productivity/blob/main/MeasuringWhatWeCantSee.md)  
+To get started, [read the full article →](https://github.com/gmcnickle/developer_productivity/blob/main/MeasuringWhatWeCantSee.md)  
 It explains the motivation, metrics, and philosophy behind the script.
 
 ### Clone the repo and update the script settings
