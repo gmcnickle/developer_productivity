@@ -122,7 +122,7 @@ Commit messages are a developer’s *first line of documentation*. A quality sco
 In real-world repos, you’ll often find the same developer committing under multiple names or emails.  
 “jdoe”, “j.doe@company.com”, and “123456+jdoe@users.noreply.github.com” might all be the same person.
 
-To address this, I built a normalization layer that maps known aliases together. Without this step, your metrics risk double-counting or misattribution.  This is something you can monitor for in your organization and set a standard to address.  Just be sure to provide some documentation to your team on how to detect and address these issues.
+One way to address this is to build a normalization layer, mapping known aliases together.  This works, but does require additional API calls, one per alias.  I've moved away from this practice, and instead have set an organizational standard for configuring git and github for corporate repos.  If you're looking at legacy data though, the normalization map may be your best option.
 
 > 🛠️ **Pro Tip**  Implement Caching in your Metrics Automation
 > Git history queries and GitHub API calls can add up quickly. Caching normalized author data and repeated stats improves performance and helps you stay under rate limits.
