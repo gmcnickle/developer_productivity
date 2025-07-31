@@ -5,7 +5,7 @@ A Data-Driven Look at the Invisible Work of Developers
 
 ## The Myth of Developer Productivity
 
-I've worked as a software development lead in one form or another since 2000. For 25 years, I’ve watched managers wrestle with how to objectively measure a developer’s productivity. More often than not, the question gets sidestepped entirely—left to “gut feel,” 1:1 conversations, or the occasional peer review. Most of the time, it’s simply ignored unless a problem becomes too big to overlook.
+I've worked as a software development lead in one form or another since 2000. For 25 years, I’ve watched managers wrestle with how to objectively measure a developer’s productivity. More often than not, the question gets sidestepped entirely—left to “instinct”, seat-time observations, 1:1 conversations, or the occasional peer review. Most of the time, it’s simply ignored unless a problem becomes too big to overlook.
 
 > I’ve lost count of how many times I’ve heard a leader insist that “working in the office is more productive,” or that we’ve “lost the value of watercooler conversations”—always with confidence, and amost never with data.
 > Are developers more productive on-site than remote? It’s a fair question.
