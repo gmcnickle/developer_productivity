@@ -211,7 +211,7 @@ Metrics are most powerful when they’re part of an ongoing conversation—not a
 If you're considering implementing a metrics initiative within your organization, I encourage you to bring your development team into the process early.  Get them on the bus before it’s moving. Transparency helps build trust, reduce suspicion and improve adoption.
 
 ## A Practical Jumpstart
-To make these ideas more tangible, I’ve [included a PowerShell script](https://github.com/gmcnickle/measuring-productivity/blob/main/New-DailyReport.ps1) that analyzes Git activity over the last 24 hours and emails a summary to a team lead. It pulls data like:
+To make these ideas more tangible, I’ve [included a PowerShell script](https://github.com/gmcnickle/developer_productivity/blob/main/New-DailyReport.ps1) that analyzes Git activity over the last 24 hours and emails a summary to a team lead. It pulls data like:
 
 Number of commits
 
@@ -222,7 +222,10 @@ PRs opened and PRs needing attention
 Last commit timestamp for each team member
 
 It’s intentionally lightweight—designed to be portable, cross-platform, and easily extended.
-You won’t need a database or dashboard to get started, and the configuration lives in a simple settings block.
+You won’t need a database or dashboard to get started, and the configuration lives in a simple settings block.  Here's a screenshot:
+<br><br>
+
+![Screenshot, Daily Team Summary](https://github.com/gmcnickle/developer_productivity/blob/main/assets/screenshot.png)
 
 This isn’t a comprehensive analytics engine. It’s a jumpstart—meant to get your team thinking, measuring, and refining with real data. 
 
@@ -231,5 +234,6 @@ Not a deep dive—but enough to keep your thumb on the pulse of development and 
 
 In my own work, I run a more comprehensive script that emails each developer a personalized work summary across all the repositories they touch, and sends me a detailed report broken down by developer and repo but that analysis runs monthly.
 
-For day-to-day awareness, I use a version very similar to the one below—just enough to stay informed without overwhelming myself or my team.
+For day-to-day awareness, I use a version very similar to the one here—just enough to stay informed without overwhelming myself or my team.
+
 
