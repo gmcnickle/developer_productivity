@@ -60,7 +60,7 @@ The script sends a styled HTML email to the designated team lead with:
 
 <br>
 
-<img src="https://raw.githubusercontent.com/gmcnickle/developer-productivity/main/assets/screenshot.png">
+<img src="https://github.com/gmcnickle/developer_productivity/raw/main/assets/screenshot.png">
 
 ### Closing Thoughts
 
